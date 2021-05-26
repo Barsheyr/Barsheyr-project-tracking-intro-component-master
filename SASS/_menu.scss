@@ -1,0 +1,46 @@
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Barlow Condensed', sans-serif;
+        margin-top: 30px;
+        a {
+            text-decoration: none;
+            color: $Very-Dark-Blue;
+        }
+    }
+    
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .login {
+            color: $Grayish-Blue;
+            font-weight: 700;
+            font-size: 15px;
+            text-transform: uppercase;
+            margin-left: 70px;
+            &:hover {
+                border-bottom: 1px solid $Grayish-Blue;
+            }
+        }
+    }
+    
+    .menu-nav {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+    }
+    
+    .menu-nav li a {
+        font-size: 15px;
+        margin-left: 80px;
+        font-weight: 700;
+        text-transform: uppercase;
+        &:hover {
+            border-bottom: 1px solid $Very-Dark-Blue;
+            margin-top: -30px;
+        }
+    }
